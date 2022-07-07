@@ -1,0 +1,179 @@
+* {
+    font-family: Helvetica;
+  }
+  
+  :root {
+    --main-color: hsl(193, 100%, 96%);
+    --main-genislik: 25px;
+    --bright-pink: hsl(322, 100%, 66%);
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: auto;
+  }
+  
+  .flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6%;
+    margin-bottom: 20px;
+  }
+  
+  h1.big {
+    font-size: 300%;
+  }
+  .text {
+    font-size: 18px;
+  }
+  
+  .header2Idk {
+    max-width: 40%;
+  }
+  
+  .cloud {
+    padding: 3.5% 5.5%;
+    margin-bottom: 35px;
+    background-color: var(--main-color);
+    background-image: url(../assets/bg-hero-desktop.svg);
+  }
+  
+  .btn {
+    display: inline-block;
+    color: hsl(210, 2%, 26%);
+    padding: 1% 4%;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 8px 1px rgba(151, 151, 151, 0.283);
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  .btn.btn1 {
+    padding: 20px 60px;
+    background-color: hsl(322, 100%, 66%);
+    color: aliceblue;
+  }
+  
+  .btn.btn1:hover {
+    background-color: hsl(322, 100%, 77%);
+  }
+  
+  .myImg {
+    width: 15%;
+  }
+  
+  .myImg:hover {
+    cursor: pointer;
+  }
+  
+  .myImg2 {
+    width: 100%;
+  }
+  
+  .card {
+    gap: 20%;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5%;
+    margin: 20px 5.5%;
+    box-shadow: 1px 1px 8px 1px rgba(151, 151, 151, 0.283);
+  }
+  
+  .card .myImg2 {
+    width: 30%;
+  }
+  
+  .card.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .card p {
+    color: hsl(208, 11%, 55%);
+  }
+  
+  .overlapping-card {
+    position: relative;
+    margin-top: 100px;
+    min-height: 180px;
+  }
+  
+  .overlapping-card-content {
+    flex-direction: column;
+    justify-content: center;
+    width: 52%;
+    position: absolute;
+    right: 24%;
+    top: 0;
+    bottom: -50%;
+    padding: 5mm;
+    background-color: white;
+    box-shadow: 1px 1px 8px 1px rgba(151, 151, 151, 0.283);
+    border-radius: 15px;
+  }
+  
+  .ftr {
+    font-size: 16px;
+    padding: 0 10% 1%;
+    color: white;
+    background-color: hsl(192, 100%, 9%);
+  }
+  
+  .ftr .myImg {
+    margin-top: 15%;
+    width: 20%;
+    filter: brightness(10) saturate(0%) contrast(20);
+  }
+  
+  .ftr .flex1 {
+    align-items: top;
+    gap: 10px;
+  }
+  
+  .footer-left-down-elements {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .ftr div p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .ftr .vert {
+    justify-content: space-around;
+    max-width: 35%;
+  }
+  
+  .footer-middle-elements{
+      display: flex;
+      align-items: baseline;
+      
+  }
+  
+  .footer-right-elements{
+      flex-direction: column;
+  }
+  
+  .footer-right-icons-cont{
+      display: flex;
+      justify-content: space-around;
+      
+  }
+  
+  .footer-right-icons{
+      display: inline-block;
+     padding-bottom: 68%;
+  }
+  
+  .footer-right-icon:hover{
+      cursor: pointer;
+      color: var(--bright-pink);
+  }
+  
